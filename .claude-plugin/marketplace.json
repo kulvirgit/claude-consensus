@@ -1,0 +1,18 @@
+{
+  "name": "claude-consensus",
+  "owner": {
+    "name": "Altimate AI",
+    "email": "support@altimate.ai"
+  },
+  "metadata": {
+    "description": "Configurable multi-model consensus review and planning for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "consensus",
+      "description": "Configurable multi-model code review and plan review with consensus convergence",
+      "source": "./plugins/consensus"
+    }
+  ]
+}
